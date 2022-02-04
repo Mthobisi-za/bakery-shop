@@ -1,0 +1,47 @@
+.slide-container {
+    width: 60%;
+    margin: auto;
+    background-color: #739E82;
+}
+
+.emptyy {
+    min-height: 2px;
+}
+
+.slide-container p {
+    font-family: 'Quintessential', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #231123;
+}
+
+.all {
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+
+.all img {
+    width: 100%;
+    animation: images 7s alternate ease-in infinite;
+    position: relative;
+    animation-delay: 10s;
+}
+
+@keyframes images {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: -850px;
+    }
+    50% {
+        left: -800px;
+    }
+    75% {
+        left: -1700px;
+    }
+    100% {
+        left: -1650px;
+    }
+}
