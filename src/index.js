@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Cart from './Cart';
 import Menu from './Menu'
 import Slide from './Slide';
 import Shop from './Shop';
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render( <
     React.StrictMode >

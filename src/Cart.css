@@ -1,0 +1,9 @@
+.cartcontainer {
+    position: absolute;
+    width: 30%;
+    min-height: 300px;
+    background-color: #2939;
+    right: 0px;
+    top: 0px;
+    display: none;
+}
