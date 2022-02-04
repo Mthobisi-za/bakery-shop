@@ -3,12 +3,12 @@ import Data from './data'
 
 
  function Shop(){
-    
+   
     return(
         <>
         <h1 className="subtitle">Bakery Catalogue <i class="far fa-laugh-wink"></i> </h1>
         <p className="p-cata">Welcome to our fresh products *</p>
-            <div className="shop" id='shop'>shop</div>
+            <div className="shop" id='shop'></div>
             <div className="carryCon">
                 <div className="empty"></div>
                 <div className="products">

@@ -5,16 +5,17 @@ import App from './App';
 import Menu from './Menu'
 import Slide from './Slide';
 import Shop from './Shop';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Menu/>
-    <Slide/>
-    <Shop/>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render( <
+    React.StrictMode >
+    <Menu / >
+    <Slide / >
+    <Shop / >
+    <Footer/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
